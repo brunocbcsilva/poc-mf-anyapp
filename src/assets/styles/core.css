@@ -34,3 +34,15 @@
 #app {
   @apply relative h-screen w-screen overflow-y-auto overflow-x-hidden;
 }
+
+.router-link-active {
+  @apply font-semibold text-green-300;
+}
+
+.router-link-exact-active {
+  @apply border border-green-500 font-bold text-green-500;
+
+  > svg {
+    @apply fill-green-500;
+  }
+}

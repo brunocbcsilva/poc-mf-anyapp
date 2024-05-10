@@ -1,6 +1,6 @@
 <template>
   <DefaultLayout>
-    <PrincipalPage />
+    <RouterView />
   </DefaultLayout>
 </template>
 

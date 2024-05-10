@@ -22,7 +22,7 @@ onMounted(() => {
           data-drawer-target="drawer-navigation"
           data-drawer-toggle="drawer-navigation"
           aria-controls="drawer-navigation"
-          class="mr-2 cursor-pointer rounded-lg p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:ring-2 focus:ring-gray-100 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:bg-gray-700 dark:focus:ring-gray-700"
+          class="mr-2 cursor-pointer rounded-lg p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:ring-2 focus:ring-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:bg-gray-700 dark:focus:ring-gray-700 md:hidden"
         >
           <svg
             aria-hidden="true"
@@ -67,7 +67,7 @@ onMounted(() => {
           type="button"
           data-drawer-toggle="drawer-navigation"
           aria-controls="drawer-navigation"
-          class="mr-1 rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:ring-gray-300 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
+          class="mr-1 rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:ring-gray-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600 md:hidden"
         >
           <span class="sr-only">Toggle search</span>
           <svg
@@ -371,7 +371,7 @@ onMounted(() => {
           </div>
           <div class="grid grid-cols-3 gap-4 bg-gray-50 p-4">
             <a
-              href="#"
+              href="http://localhost:5180"
               class="group block rounded-lg p-4 text-center hover:bg-gray-100 dark:hover:bg-gray-600"
             >
               <svg
@@ -390,7 +390,7 @@ onMounted(() => {
               <div class="text-sm text-gray-900 dark:text-white">Sales</div>
             </a>
             <a
-              href="#"
+              href="http://localhost:5170"
               class="group block rounded-lg p-4 text-center hover:bg-gray-100 dark:hover:bg-gray-600"
             >
               <svg
@@ -407,7 +407,7 @@ onMounted(() => {
               <div class="text-sm text-gray-900 dark:text-white">Users</div>
             </a>
             <a
-              href="#"
+              href="http://localhost:5173"
               class="group block rounded-lg p-4 text-center hover:bg-gray-100 dark:hover:bg-gray-600"
             >
               <svg
@@ -429,7 +429,7 @@ onMounted(() => {
         </div>
         <button
           type="button"
-          class="mx-3 flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 md:mr-0 dark:focus:ring-gray-600"
+          class="mx-3 flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 md:mr-0"
           id="user-menu-button"
           aria-expanded="false"
           data-dropdown-toggle="dropdown"
